@@ -3,8 +3,15 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+// our firebase config
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyDssgacWJyV-hU9MVriPv7gn8dw1ycWHrA",
+  authDomain: "webrtc-firebase-demo-aba34.firebaseapp.com",
+  projectId: "webrtc-firebase-demo-aba34",
+  storageBucket: "webrtc-firebase-demo-aba34.appspot.com",
+  messagingSenderId: "783472591075",
+  appId: "1:783472591075:web:b3a53d04300b17eaa485d6",
+  measurementId: "G-2T7HWZ4HJQ"
 };
 
 if (!firebase.apps.length) {
