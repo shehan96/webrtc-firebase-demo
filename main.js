@@ -1,7 +1,7 @@
-// import firebase from '/node_modules/firebase/app';
-var firebase = require('firebase/app');
-// import '/node_modules/firebase/firestore';
-require('firebase/firestore');
+import firebase from 'firebase/app';
+// var firebase = require('firebase/app');
+import 'firebase/firestore';
+// require('firebase/firestore');
 
 // our firebase config
 const firebaseConfig = {
