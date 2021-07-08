@@ -1,6 +1,6 @@
-import firebase from 'firebase/app';
+// import firebase from 'firebase/app';
 // var firebase = require('firebase/app');
-import 'firebase/firestore';
+// import 'firebase/firestore';
 // require('firebase/firestore');
 
 // our firebase config
